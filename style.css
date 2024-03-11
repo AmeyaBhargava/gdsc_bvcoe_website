@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgba(255, 221, 0, 0.915);
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.gdsc{
+    top: 0;
+    justify-content: center;
+
+}
+
+.main-layout {
+    justify-content: center;
+    top: 0px;
+}
+
+.logo img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    cursor: url('logo2.jpg'), auto;
+}
+
+.about {
+    background-color: burlywood;
+    display: none;
+}
+
+.about.show {
+    display: block;
+}
+
+.heading-line {
+    width: 0;
+    border: none;
+    border-top: 2px solid #333;
+    transition: width 0.3s ease;
+}
+
+.themes {
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    border-width:5% ;
+    background-image: linear-gradient(burlywood, rgba(255, 221, 0, 0.915));
+    margin-top: 20px;
+    padding-bottom: 50 px;
+}
+
+.sponsors{
+    background-image: linear-gradient(burlywood,rgba(255, 221, 0, 0.915));
+
+}
+.contact{
+    background-image: linear-gradient(burlywood, rgba(255, 221, 0, 0.915));
+}
+
+.carousel-slide {
+    width: 50%; /* Adjust as needed */
+    margin: 0 10px;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.carousel-slide img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners */
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-slide1 {
+    width: 50%; /* Adjust as needed */
+    margin: 0 10px;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.carousel-slide1 img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners */
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-info {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(180px, -80px);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    visibility:visible;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s ease;
+    flex-direction: row;
+}
+
+.theme-info1 {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(80px, -50px);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    visibility:visible;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s ease;
+    flex-direction: row;
+}
+
+.carousel-slide:hover .theme-info {
+    visibility: visible;
+    opacity: 1;
+}
+
+.carousel-slide1:hover .theme-info1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Style the next button */
+
+
+.next-btn:hover {
+    background-color: rgba(234, 188, 70, 0.915);
+}
+
+.next-btn {
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgba(248, 127, 13, 0.915);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self:center; /* Align to the start of the flex container */
+}
+
+
+.problem-statements:hover {
+    background-color: rgba(234, 188, 70, 0.915);
+}
+
+.problem-statements {
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgba(248, 127, 13, 0.915);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self:center; /* Align to the start of the flex container */
+}
+
+
+/*last contact section*/
+.Outreach{
+    background-color: burlywood;
+}
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 0px;
+}
+
+.contact,.FacultyIncharge .organizers, .social {
+    justify-content:space-evenly;
+    text-align: center;
+}
+
+.contact h2, .organizers h2, .social h2 {
+    margin-bottom: 10px;
+}
+
+.contact ul, .organizers ul, .social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact ul li, .organizers ul li, .social ul li {
+    margin-bottom: 5px;
+}
+
+.contact a, .organizers a, .social a {
+    color: white;
+    text-decoration: none;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+footer {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Spread items evenly */
+    align-items: center; /* Center-align items vertically */
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 20px; /* Add padding */
+  }

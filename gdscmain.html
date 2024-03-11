@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDSC BVCOE Hackathon Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+        .container {
+            display: flex; /* Use flexbox */
+        }
+        
+        .carousel {
+            flex: 1; /* Each item takes up equal space */
+            margin: 5px; /* Add some margin between items */
+            background-color: burlywood; /* Just for demonstration */
+        }
+    </style>
+</head>
+<body>
+    <div class =gdsc>
+         <img src="gdsc logo.png" width="300" height="150" style="    border-top-right-radius: 10px;
+         border-bottom-right-radius: 10px;
+         border-width: 10px;
+         border-style: solid;
+         border-color: rgb(104, 104, 104);">
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">GDSC BVCOE</a></li>
+            <li><a href="#themes">About The EVENT</a></li>
+            <li><a href="#registration">Registration Page</a></li>
+            <!-- Add more navigation links as needed -->
+        </ul>
+    </nav>
+    <!-- main layout -->
+    <section class="main-layout">
+        <h1 style="color: rgb(104, 104, 104);text-align:center;">CODE CLASH HACKATHON</h1>
+        <div class="logo">
+            <img src="logo.png" alt="GDSC" id="logo">
+        </div>
+        <div class="about" id="about">
+            <h1 style="text-align:center";>Welcome to GDSC</h1>
+            <p>Google Developer Student Clubs (GDSC) are community groups for college and university students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a GDSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.</p>
+        </div>
+        <div class="heading-line" id="heading-line">
+            <hr>
+        </div>
+    </section>
+
+    <section class="themes">
+        <h1 style="color: rgb(104, 104, 104);text-align:center;">THEMES FOR CODE CLASH</h1>
+        <br> <br> <br>
+
+        <div class="container">
+            <div class="carousel" id="theme-carousel">
+                <h1 style="color: rgb(141, 137, 132);text-align:center;">GENERALIZED THEMES</h1>
+                <br> <br>
+                <div class="carousel-content">
+                    <div class="carousel-slide">
+                        <img src="theme1.jpg" alt="Web Dev">
+                        <div class="theme-info">
+                            <h2>Theme 1</h2>
+                            <p>Description for theme 1</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="theme2.jpg" alt="Ui/Ux">
+                        <div class="theme-info">
+                            <h2>Theme 2</h2>
+                            <p>Description for theme 2</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="theme3.jpg" alt="Big Data and Sentiment Analysis">
+                        <div class="theme-info">
+                            <h2>Theme 3</h2>
+                            <p>Description for theme 3</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="theme4.png" alt="Big Data and Sentiment Analysis">
+                        <div class="theme-info">
+                            <h2>Theme 4</h2>
+                            <p>Description for theme 3</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="theme5.png" alt="Big Data and Sentiment Analysis">
+                        <div class="theme-info">
+                            <h2>Theme 5</h2>
+                            <p>Description for theme 3</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="theme6.png" alt="Big Data and Sentiment Analysis">
+                        <div class="theme-info">
+                            <h2>Theme 6</h2>
+                            <p>Description for theme 3</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="theme7.jpg" alt="Big Data and Sentiment Analysis">
+                        <div class="theme-info">
+                            <h2>Theme 7</h2>
+                            <p>Description for theme 3</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="theme8.jpg" alt="Big Data and Sentiment Analysis">
+                        <div class="theme-info">
+                            <h2>Theme 8</h2>
+                            <p>Description for theme 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="next-btn" id="nextBtn" style="font-family: sans-serif;">Next Theme -></button>
+
+            <div class="carousel" id="theme-carousel1">
+                <h1 style="color: rgb(104, 104, 104);text-align:center;">PREDEFINED PROBLEM STATEMENTS</h1>
+                <br> <br>
+                <div class="carousel-content">
+                    <div class="carousel-slide1">
+                        <img src="Sih.png" alt="Web Dev">
+                        <div class="theme-info1">
+                            <h2>Theme 1</h2>
+                            <p>Description for theme 1</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide1">
+                        <img src="Sih.png" alt="Ui/Ux">
+                        <div class="theme-info1">
+                            <h2>Theme 2</h2>
+                            <p>Description for theme 2</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide1">
+                        <img src="Sih.png" alt="Big Data and Sentiment Analysis">
+                        <div class="theme-info1">
+                            <h2>Theme 3</h2>
+                            <p>Description for theme 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="problem-statements" id="problemstatements" style="font-family: sans-serif;">Next Set of Problem Statement -></button>
+        </div>
+    </section>
+
+    
+    <!-- sponsors -->
+    <section class="sponsors">
+        <h1 style="color: rgb(104, 104, 104);text-align:center;">SPONSORS</h1>
+        <br> <br>
+        <img src="sponsor.png">
+    </section>
+
+    <!-- contact -->
+    <section class="Outreach">
+    <h2 style="color: rgb(104, 104, 104);text-align:center;">CONTACT US</h2>
+    <br> <br>
+    </section>
+    <footer class="contact">
+        <div class="FacultyIncharge">
+            <h2 style="color: rgb(104, 104, 104);text-align:center;">Faculty Incharge</h2>
+                <img src="alka maam gdsc.jpg" width="50" height="100">
+                <h5>Alka Leekha ma'am</h5>
+        </div>
+        <div class="organizers">
+            <h2 style="color: rgb(104, 104, 104);text-align:center;">Organizers</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/riyaghaloth_/"><u>Riya Ghaloth</u></a></li>
+                <li><a href="https://www.instagram.com/avantikachauhann/"><u>Avantika Chauhan</u></a></li>
+                <li><a href="https://www.instagram.com/ameya_2908/"><u>Ameya Bhargava</u></a></li>
+                <li><a href="https://www.instagram.com/dhruvmathur01/"><u>Dhruv Mathur</u></a></li>
+                <li><a href="https://www.instagram.com/tusharmittal.0109/"><u>Tushar Mittal</u></a></li>
+                <!-- Add more organizers as needed -->
+            </ul>
+        </div>
+        <div class="social">
+            <h2 style="color: rgb(104, 104, 104);text-align:center;">Follow Us</h2>
+            <ul>
+                <li><a href="#"><img src="instagram-logo.png" alt="Instagram"></a></li>
+                <li><a href="#"><img src="whatsapp-logo.png" alt="WhatsApp"></a></li>
+                <li><a href="#"><img src="facebook-logo.png" alt="WhatsApp"></a></li>
+                <li><a href="#"><img src="linktree.png" alt="WhatsApp"></a></li>
+                <!-- Add more social media logos as needed -->
+            </ul>
+        </div>
+        <div class="reach">
+            <ul>
+                <li><a href="#">Email :gdscbvcoe@gmail.com</a></li>
+                <li><a href="#">Phone No :+91 85272 35238</a></li>
+                <!-- Add more contact options as needed -->
+            </ul>
+        </div>
+    </footer>
+ 
+
+    <script src="script.js"></script>
+</body>
+</html>

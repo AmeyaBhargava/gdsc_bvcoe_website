@@ -1,0 +1,43 @@
+/* Add this CSS to style the navbar */
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: burlywood;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(104, 104, 104);
+    flex:auto
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 10px; /* Adjust spacing between navbar items */
+    border-right: 10px;
+    border-style: solid;
+    border-color: rgb(104, 104, 104);
+}
+
+.navbar li:last-child {
+    margin-right: 0; /* Remove margin from the last navbar item */
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; /* Increase font size */
+}
+
+.navbar a:hover {
+    color: rgba(248, 127, 13, 0.915); /* Change color on hover */
+}
